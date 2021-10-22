@@ -2,5 +2,3 @@
 Bveeta Mini Type R repository
 What is Bveeta Mini
 Bveeta Mini type R is a ROS standard platform robot. Bveeta is based on two wheeled mobile robot, which was driven by the educational computer programming language. Bveeta, which originated from the two wheeled mobile robot, is designed to teach people to use ROS through Bveeta mini type R platform as well as to teach computer programming language. In the early 2021, Bveeta mini has become the standard platform of ROS, which is the most popular platform among developers and students.
-There are 2 versions of the Bveeta mini model. The first model was Bveeta mini, and the second model is Bveeta mini type R as shown in Figure 1.0. Both models have the same capabilities and function. 
-
