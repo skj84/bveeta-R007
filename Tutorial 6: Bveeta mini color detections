@@ -1,0 +1,51 @@
+#Tutorial 6: Bveeta mini color detections
+#functions involved
+#variable involved
+#Author: Ts.Khai@Bizbot Technology
+
+# importing required libraries
+import cv2
+import numpy as np
+ 
+# taking the input from webcam
+cap = cv2.VideoCapture(0)
+
+# Check if the webcam is opened correctly
+if not cap.isOpened():
+    raise IOError("Webcam is not available. Please check connections or reset the camera")
+ 
+# running while loop just to make sure that
+# our program keep running until we stop it
+while True:
+ 
+    # capturing the current frame
+    ret, frame = cap.read()
+    frame = cv2.resize(frame, None, fx=1.0, fy=1.0, interpolation=cv2.INTER_AREA)
+    # displaying the current frame
+    cv2.imshow("Input", frame)
+ 
+    # setting values for base colors
+    b = frame[:, :, :1]
+    g = frame[:, :, 1:2]
+    r = frame[:, :, 2:]
+ 
+    # computing the mean
+    b_mean = np.mean(b)
+    g_mean = np.mean(g)
+    r_mean = np.mean(r)
+ 
+    # displaying the most prominent color
+    if (b_mean > g_mean and b_mean > r_mean):
+        print("Blue")
+    if (g_mean > r_mean and g_mean > b_mean):
+        print("Green")
+    else:
+        print("Red")
+    
+    c = cv2.waitKey(1)
+    if c == 27:
+        break
+    
+cap.release()
+cv2.destroyAllWindows()
+
