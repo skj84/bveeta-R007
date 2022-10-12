@@ -1,7 +1,7 @@
 <launch>
   <!--<include file="$(find move_base)/launch/move_base.launch"/>-->
-  <include file="$(find ydlidar_ros)/launch/X2L.launch"/>
-  <include file="$(find ros_arduino_python)/launch/arduino.launch"/>
+  <!--<include file="$(find ydlidar_ros)/launch/X2L.launch"/>-->
+  <!--<include file="$(find ros_arduino_python)/launch/arduino.launch"/>-->
   <include file="$(find urdf_bveeta)/launch/bveeta_urdf.launch"/>
   <!--<include file="$(find usb_cam)/launch/usb_cam.launch"/>-->
 
