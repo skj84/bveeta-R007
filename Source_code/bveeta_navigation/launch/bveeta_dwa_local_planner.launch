@@ -3,8 +3,8 @@
 <launch>
 
   <param name="use_sim_time" value="false"/>
-  <include file="$(find ydlidar_ros)/launch/X2L.launch"/>
-  <include file="$(find ros_arduino_python)/launch/arduino.launch"/>
+  <!--<include file="$(find ydlidar_ros)/launch/X2L.launch"/>-->
+  <!--<include file="$(find ros_arduino_python)/launch/arduino.launch"/>-->
   <include file="$(find move_base)/launch/amcl_diff.launch"/>
   <include file="$(find urdf_bveeta)/launch/bveeta_urdf.launch"/> <!--run urdf for robot state publisher-->
   <!--<include file="$(find usb_cam)/launch/usb_cam.launch"/>--> <!--<enable useb camera when you have it-->
