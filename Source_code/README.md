@@ -22,5 +22,8 @@ Step 6:
 In your Host PC, terminal test your robot with Gmapping slam
 roslaunch gmapping bveeta_gmapping.launch
 
+Step 7:
+Please sudo chmod +x for nodes that are not runnning 
+
 if map appear then everything in your setup is done correctly. Otherwise, please refer to the hardcopy handout given
 with the bveeta mini kit.
