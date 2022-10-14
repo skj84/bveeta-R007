@@ -8,7 +8,7 @@ git clone https://github.com/skj84/bveeta-R007
 Step3:
 install all dependencies below from your terminal:
 
-sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc   ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan   ros-melodic-rosserial-arduino ros-melodic-rosserial-python   ros-melodic-rosserial-server ros-melodic-rosserial-client   ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server   ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro   ros-melodic-compressed-image-transport ros-melodic-rqt*   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers ros-melodic-hector-mapping ros-melodic-map-server ros-melodic-slam-gmapping
+sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc   ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan   ros-melodic-rosserial-arduino ros-melodic-rosserial-python   ros-melodic-rosserial-server ros-melodic-rosserial-client   ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server   ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro   ros-melodic-compressed-image-transport ros-melodic-rqt*   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers ros-melodic-hector-mapping ros-melodic-map-server ros-melodic-slam-gmapping ros-melodic-teb-local-planner
 
 Step 4: Run roscore
 ssh into bveeta mini
