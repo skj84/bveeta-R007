@@ -34,7 +34,7 @@
     <visual> 
      <origin xyz="-0.02 0.06 0" rpy="0 0 -1.57"/>
       <geometry>
-        <mesh filename="package://urdf_bveeta/meshes/bveeta.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://urdf_bveeta/meshes/bveeta_base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="black"/>
     </visual>
