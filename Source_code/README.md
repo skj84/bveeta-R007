@@ -5,6 +5,8 @@ Clone this repository in your Host PC
 
 Step2:
 cd catkin_ws/src
+
+Step3:
 git clone https://github.com/skj84/bveeta-R007
 
 Step3:
