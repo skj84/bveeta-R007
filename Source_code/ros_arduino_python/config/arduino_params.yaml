@@ -3,7 +3,7 @@
 # For a wireless connection like XBee, the port is typically
 # /dev/ttyUSB# where # is a number such as 0, 1, 2, etc.
 
-port: /dev/ttyACM0
+port: /dev/ttyUSB1
 baud: 57600
 timeout: 0.1
 
@@ -17,11 +17,11 @@ base_controller_rate: 10
 base_frame: base_link
 
 # === Robot drivetrain parameters
-wheel_diameter: 0.150
-wheel_track: 0.300
-encoder_resolution: 1700 #7575 # from spg cytron motor 1:270 motors(get from serial read test for 1 rotation)
+wheel_diameter: 0.067
+wheel_track: 0.18
+encoder_resolution: 2200 #7575 # from spg cytron motor 1:270 motors(get from serial read test for 1 rotation)
 gear_reduction: 1.0
-motors_reversed: false
+motors_reversed: False
 
 # === PID parameters
 # 0.2
