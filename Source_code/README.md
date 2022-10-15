@@ -1,3 +1,5 @@
+Steps below is for Original Bveeta Mini with Raspberry Pi 4 8G user (debian buster + ROS melodic)
+
 Step 1:
 Clone this repository in your Host PC
 
@@ -14,7 +16,7 @@ Step 4: Run roscore
 ssh into bveeta mini
 roscore
  
-Step 5: Bringup bveeta
+Step 5: Bringup bveeta (for raspberry pi user ONLY)
 ssh into bveeta mini
 roslaunch bveeta_bringup bveeta_bringup.launch
 
@@ -24,6 +26,11 @@ roslaunch gmapping bveeta_gmapping.launch
 
 Step 7:
 Please sudo chmod +x for nodes that are not runnning 
+
+Step 8: 
+sudo chmod 777 /dev/ttyUSB0
+sudo chmod 777 /dev/ttyUSB1
+if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD 
 
 if map appear then everything in your setup is done correctly. Otherwise, please refer to the hardcopy handout given
 with the bveeta mini kit.
