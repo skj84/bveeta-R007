@@ -18,7 +18,9 @@
     <rosparam file="$(find move_base)/nav/teb_local_planner.yaml" command="load" />
     	<param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
   </node>
-<!-- <node pkg="tf" type="static_transform_publisher" name="base_link_to_imu_data_broadcaster" args="0 0 0 0 0 0 base_link /imu/data 10"/>-->
+
+ <node pkg="tf" type="static_transform_publisher" name="map_to_odom_broadcaster" args="0 0 0 0 0 0 map odom 10"/>
+ <node pkg="tf" type="static_transform_publisher" name="odom_to_base_link_broadcaster" args="0 0 0 0 0 0 odom base_link 10"/>
 
 </launch>
 
