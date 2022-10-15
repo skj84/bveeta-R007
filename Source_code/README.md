@@ -34,3 +34,5 @@ if SDD cannot connect, unplug lidar and SDD together and plug in lidar first the
 
 if map appear then everything in your setup is done correctly. Otherwise, please refer to the hardcopy handout given
 with the bveeta mini kit.
+
+<a href="https://ibb.co/82vzBmt"><img src="https://i.ibb.co/1Kysn0j/Screenshot-from-2022-06-30-05-41-23.png" alt="Screenshot-from-2022-06-30-05-41-23" border="0"></a><br /><a target='_blank' href='https://500pxdownload.com/'>download own photos from instagram</a><br />
