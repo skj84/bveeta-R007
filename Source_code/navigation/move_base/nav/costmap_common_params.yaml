@@ -1,0 +1,21 @@
+obstacle_range: 1.0
+raytrace_range: 1.15 #distance object
+
+map_topic: /map
+#footprint is use only for robot
+#footprint: [[-0.1, -0.1], [-0.1, 0.1], [0.1, 0.1], [0.1, -0.1]]
+#footprint_padding: 0.05
+update_frequency: 2
+publish frequency: 1
+
+robot_radius: 0.1 #0.0975
+inflation_radius: 0.20 #0.05
+cost_scaling_factor: 5.0 #5.0
+map_type: costmap
+resolution: 0.05 #0.05
+
+max_obstacle_height: 0.7
+min_obstacle_height: 0.0
+observation_sources: scan
+#scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true} #compare turtlebot settings
+scan: {data_type: LaserScan, topic: scan, marking: true, clearing: true, expected_update_rate: 0}
