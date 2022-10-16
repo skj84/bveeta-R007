@@ -36,8 +36,7 @@ Step 10:
 Please sudo chmod +x for nodes that are not runnning 
 
 Step 11: 
-sudo chmod 777 /dev/ttyUSB0
-sudo chmod 777 /dev/ttyUSB1
+KERNEL=="ttyUSB[0-9]*", OWNER="yourUserName"
 if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD 
 
 if map appear then everything in your setup is done correctly. Otherwise, please refer to the hardcopy handout given
