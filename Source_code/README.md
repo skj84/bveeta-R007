@@ -21,18 +21,7 @@ Step 6:
 catkin_make
 
 Step 7:
-ssh into bveeta mini
-
-Step 8:
-roscore
- 
-Step 9: Bringup bveeta (for raspberry pi user ONLY)
-ssh into bveeta mini
-roslaunch bveeta_bringup bveeta_bringup.launch
-
-Step 10:
-In your Host PC, terminal test your robot with Gmapping slam
-roslaunch gmapping bveeta_gmapping.launch
+ssh into raspi
 
 Step 11: 
 sudo usermod -a -G dialout $USER  
@@ -42,6 +31,17 @@ roscd ros_arduino_python/node
 
 Step 13:
 sudo chmod +x arduino_node.py
+
+Step 14:
+roscore
+ 
+Step 15: Bringup bveeta (for raspberry pi user ONLY)
+ssh into bveeta mini
+roslaunch bveeta_bringup bveeta_bringup.launch
+
+Step 16:
+In your Host PC, terminal test your robot with Gmapping slam
+roslaunch gmapping bveeta_gmapping.launch
 
 (if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
 
