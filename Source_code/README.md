@@ -36,8 +36,9 @@ Step 10:
 Please sudo chmod +x for nodes that are not runnning 
 
 Step 11: 
-KERNEL=="ttyUSB[0-9]*", OWNER="yourUserName"
-if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD 
+sudo usermod -a -G dialout $USER   
+
+(if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
 
 if map appear then everything in your setup is done correctly. Otherwise, please refer to the hardcopy handout given
 with the bveeta mini kit.
