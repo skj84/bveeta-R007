@@ -16,7 +16,7 @@
         <!--<param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />-->
       
      <!-- Change argumanets based on local planner use for trajctory local planner -->
-        <!--<param name="base_local_planner" value="trajectory_local_planner/TebLocalPlannerROS" />-->
+        <!--<param name="base_local_planner" value="trajectory_local_planner/TrajectoryPlannerROS" />-->
       
   </node>
 
