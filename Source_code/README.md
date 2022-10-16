@@ -36,7 +36,13 @@ Step 10:
 Please sudo chmod +x for nodes that are not runnning 
 
 Step 11: 
-sudo usermod -a -G dialout $USER   
+sudo usermod -a -G dialout $USER  
+
+Step 12:
+roscd ros_arduino_python/node
+
+Step 13:
+sudo chmod +x arduino_node.py
 
 (if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
 
