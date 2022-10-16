@@ -20,20 +20,19 @@ cd ..
 Step 6:
 catkin_make
 
-Step 7: Run roscore
+Step 7:
 ssh into bveeta mini
+
+Step 8:
 roscore
  
-Step 8: Bringup bveeta (for raspberry pi user ONLY)
+Step 9: Bringup bveeta (for raspberry pi user ONLY)
 ssh into bveeta mini
 roslaunch bveeta_bringup bveeta_bringup.launch
 
-Step 9:
+Step 10:
 In your Host PC, terminal test your robot with Gmapping slam
 roslaunch gmapping bveeta_gmapping.launch
-
-Step 10:
-Please sudo chmod +x for nodes that are not runnning 
 
 Step 11: 
 sudo usermod -a -G dialout $USER  
