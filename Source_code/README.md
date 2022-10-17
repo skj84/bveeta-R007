@@ -27,7 +27,7 @@ Step 11:
 sudo usermod -a -G dialout $USER  
 
 Step 12:
-roscd ros_arduino_python/node
+roscd ros_arduino_python/nodes
 
 Step 13:
 sudo chmod +x arduino_node.py
