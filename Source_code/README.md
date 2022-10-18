@@ -3,7 +3,7 @@ Steps below is for Original Bveeta Mini with Raspberry Pi 4 8G user (debian bust
 Step 1:
 install all dependencies below in your hos PC terminal:
 
-sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc   ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan   ros-melodic-rosserial-arduino ros-melodic-rosserial-python   ros-melodic-rosserial-server ros-melodic-rosserial-client   ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server   ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro   ros-melodic-compressed-image-transport ros-melodic-rqt*   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers ros-melodic-hector-mapping ros-melodic-map-server ros-melodic-slam-gmapping ros-melodic-teb-local-planner ros-melodic-tf2-sensor-msgs ros-melodic-nav-msgs
+sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy   ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc   ros-melodic-rgbd-launch ros-melodic-depthimage-to-laserscan   ros-melodic-rosserial-arduino ros-melodic-rosserial-python   ros-melodic-rosserial-server ros-melodic-rosserial-client   ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server   ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro   ros-melodic-compressed-image-transport ros-melodic-rqt*   ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers ros-melodic-hector-mapping ros-melodic-map-server ros-melodic-slam-gmapping ros-melodic-teb-local-planner ros-melodic-tf2-sensor-msgs ros-melodic-nav-msgs ros-melodic-move-base-msgs
 
 Step 2:
 Clone this repository in your Host PC
