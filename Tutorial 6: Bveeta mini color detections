@@ -1,7 +1,7 @@
 #Tutorial 6: Bveeta mini color detections
 #functions involved
 #variable involved
-#Author: Ts.Khai@Bizbot Technology
+#Author: Bizbot Technology
 
 # importing required libraries
 import cv2
