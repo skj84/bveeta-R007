@@ -1,8 +1,8 @@
 #Tutorial 3: Control bveeta motion with python program
 #functions involved
-# ser.write(b"m Rspeed Lspeed \r\n")
+#arguments:    --->   ser.write(b"m Rspeed Lspeed \r\n")
 #Rspeed & Lspeed Maximum 200, minimum 10 --> test on your own to get better result
-#Author: Ts.Khai@Bizbot Technology
+#Author: Bizbot Technology
 
 import time
 import serial
