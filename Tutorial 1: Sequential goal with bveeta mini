@@ -1,5 +1,6 @@
 #author: Bizbot Technology
 #This is simple action server for moving robot to specific goal sequence
+#Toget the actual value of pose.position x,y or z please echo the topics pose
 
 import actionlib
 import rospy
