@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #code ini detect bola merah sahaja.
 #Bizbot Technology
 #Programmer: Ts.Khairul
