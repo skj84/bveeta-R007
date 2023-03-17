@@ -65,6 +65,5 @@ while True:
         break
 
 # Clean up
-GPIO.cleanup()
 cap.release()
 cv2.destroyAllWindows()
