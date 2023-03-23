@@ -1,9 +1,7 @@
 # For a direct USB cable connection, the port name is typically
-# /dev/ttyACM# where is # is a number such as 0, 1, 2, etc
-# For a wireless connection like XBee, the port is typically
 # /dev/ttyUSB# where # is a number such as 0, 1, 2, etc.
 
-port: /dev/ttyUSB1
+port: /dev/ttyUSB1   #this is the port that arduino bveeta mini should connect to
 baud: 57600
 timeout: 0.1
 
@@ -19,7 +17,7 @@ base_frame: base_link
 # === Robot drivetrain parameters
 wheel_diameter: 0.067
 wheel_track: 0.18
-encoder_resolution: 2200 #7575 # from spg cytron motor 1:270 motors(get from serial read test for 1 rotation)
+encoder_resolution: 2200 #get from serial read test for 1 rotation)
 gear_reduction: 1.0
 motors_reversed: False
 
