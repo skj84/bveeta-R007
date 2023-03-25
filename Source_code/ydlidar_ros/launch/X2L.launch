@@ -16,7 +16,4 @@
     <param name="isSingleChannel"    type="bool"   value="true"/>
   </node>
   <node pkg="tf" type="static_transform_publisher" name="scan" args="-0.07 0 0.21 0 0 0 base_link scan 10" />
-  <!--<node pkg="tf" type="static_transform_publisher" name="camera_link" args="0 0 0.075 0 0 0 base_link camera_link 10"/>-->
-  <!--<node pkg="tf" type="static_transform_publisher" name="map" args="0 0 0 0 0 0 map odom 100"/>-->
-  <!--<node pkg="tf" type="static_transform_publisher" name="base_link" args="-0.08 0 0.185 0 0 0 odom base_link 40"/>-->
 </launch>
