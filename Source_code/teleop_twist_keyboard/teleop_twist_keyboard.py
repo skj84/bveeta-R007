@@ -1,20 +1,16 @@
 #!/usr/bin/env python
-
 from __future__ import print_function
-
 import threading
-
 import roslib; roslib.load_manifest('teleop_twist_keyboard')
 import rospy
 
 from geometry_msgs.msg import Twist
-
 import sys, select, termios, tty
 
 msg = """
 Reading from the keyboard  and Publishing to Twist!
 ---------------------------
-Moving around:
+Key untuk Gerakkan Robot:
    u    i    o
    j    k    l
    m    ,    .
