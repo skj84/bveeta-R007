@@ -1,5 +1,5 @@
 #author: Ts. Khai
-#email: c4robotic@gmail.com
+#Bizbot Technology
 #This is simple action server for moving robot to specific goal sequence
 
 import actionlib
