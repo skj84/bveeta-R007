@@ -1,7 +1,7 @@
-#Tutorial 3: Bringup bveeta mini robot camera with Open CV
+#Tutorial 3:Test bveeta mini camera with Open CV
 #functions involved
 #variable involved
-#Author: Ts.Khai@Bizbot Technology
+#Author: Bizbot Technology
 
 import cv2
 
