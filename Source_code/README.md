@@ -34,14 +34,6 @@ sudo chmod +x arduino_node.py
 
 Step 14:
 roscore
- 
-Step 15: Bringup bveeta (for raspberry pi user ONLY)
-ssh into bveeta mini
-roslaunch bveeta_bringup bveeta_bringup.launch
-
-Step 16:
-In your Host PC, terminal test your robot with Gmapping slam
-roslaunch gmapping bveeta_gmapping.launch
 
 (if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
 
@@ -90,14 +82,6 @@ sudo chmod +x arduino_node.py
 
 Step 14:
 roscore
- 
-Step 15: Bringup bveeta (for raspberry pi user ONLY)
-ssh into bveeta mini
-roslaunch bveeta_bringup bveeta_bringup.launch
-
-Step 16:
-In your Host PC, terminal test your robot with Gmapping slam
-roslaunch gmapping bveeta_gmapping.launch
 
 (if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
 
