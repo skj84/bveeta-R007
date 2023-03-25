@@ -1,7 +1,6 @@
-#
 #author: Ts. Khai
-#email: khairul.bizbot@gmail.com
-#This is simple action server for moving robot to specific goal sequence
+#Bizbot Technology
+#This is simple action server for moving robot to specific goal sequence with GUI button
 import Tkinter
 import tkMessageBox
 import actionlib
