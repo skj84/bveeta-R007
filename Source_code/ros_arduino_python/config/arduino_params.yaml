@@ -19,7 +19,7 @@ wheel_diameter: 0.067
 wheel_track: 0.18
 encoder_resolution: 2200 #get from serial read test for 1 rotation)
 gear_reduction: 1.0
-motors_reversed: False
+motors_reversed: True
 
 # === PID parameters
 # 0.2
