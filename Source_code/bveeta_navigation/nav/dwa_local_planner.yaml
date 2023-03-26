@@ -6,7 +6,7 @@ DWAPlannerROS:
   clearing_rotation_allowed: true
 
 # Robot Configuration Parameters
-  max_vel_x: 0.20  #0.4
+  max_vel_x: 0.60  #0.4
   min_vel_x: -0.1
 
   max_vel_y: 0.0
@@ -19,8 +19,8 @@ DWAPlannerROS:
 # The velocity when robot is moving in a straight line
   max_vel_trans: 0.40 #0.4
   min_vel_trans: -0.20
-  max_vel_theta: 0.45 #0.17 6 degree/sec
-  min_vel_theta: 0.35 #0.08 3 degree/sec
+  max_vel_theta: 1.45 #0.17 6 degree/sec
+  min_vel_theta: 1.00 #0.08 3 degree/sec
   escape_vel: -0.1
   acc_lim_x: 1.5 #jadi 0.8 default 2.5
   acc_lim_y: 0 # zero for a differential drive robot
