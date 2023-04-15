@@ -22,7 +22,7 @@ while True:
 # Get the desired position from the user
 while True:
     try:
-        pos = int(input('Enter the desired position in degrees (0-180): '))
+        pos = int(input('Enter the desired position in radian (0-3.142): '))
         if pos < 0 or pos > 180:
             raise ValueError('Position must be between 0 and 180.')
         break
