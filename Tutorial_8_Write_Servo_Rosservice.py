@@ -14,7 +14,7 @@ servo_write = rospy.ServiceProxy('/arduino/servo_write', ServoWrite)
 # Get the servo pin number from the user
 while True:
     try:
-        pin = int(input('Enter the servo pin number (e.g. 4): '))
+        pin = int(input('Enter the servo number (0 if servo connect to pin 7, and 1 if servo connect to pin 4): '))
         break
     except ValueError:
         print('Invalid input, please enter an integer.')
