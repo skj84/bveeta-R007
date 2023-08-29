@@ -13,7 +13,7 @@ cd catkin_ws/src
 
 Step 4:
 git clone https://github.com/skj84/bveeta-R007
-git clone https://github.com/YDLIDAR/YDLidar-SDK.git  #install YDlidar SDK 
+git clone https://github.com/YDLIDAR/YDLidar-SDK.git
 cd YDLidar-SDK/
 mkdir build
 cd build
