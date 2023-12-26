@@ -49,3 +49,64 @@ Allow execute permission for the necessary scripts:
 roscd ros_arduino_python/nodes
 sudo chmod +x arduino_node.py
 ```
+
+
+# Running Cartographer in Various Configurations
+
+## 1. Run Cartographer
+
+To run Cartographer for mapping, execute the following commands:
+
+```bash
+# Launch the robot bringup
+roslaunch bveeta_bringup bveeta_bringup.launch
+
+# Launch the firmware server
+roslaunch bveeta_firmware server_bringup.launch
+
+# Launch the Cartographer for mapping with RViz
+roslaunch bveeta_cartomapping bveeta_cartomapping_rviz.launch
+
+# Run the teleop twist keyboard for manual control
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
+# Save the map
+rosrun map_server map_saver -f my_map
+```
+
+## 2. Run Cartographer with Move-Base
+
+For running Cartographer with move-base functionality:
+
+```bash
+roslaunch bveeta_bringup bveeta_bringup.launch
+roslaunch bveeta_firmware server_bringup.launch
+roslaunch bveeta_cartonavigation bveeta_cartonavigation.launch
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+rosrun map_server map_server my_map.yaml
+```
+
+## 3. Run Cartographer with Gazebo Simulation
+
+To simulate Cartographer with Gazebo:
+
+```bash
+roslaunch bveeta_gazebo maze.launch
+roslaunch bveeta_firmware server_bringup.launch
+roslaunch bveeta_cartonavigation bveeta_cartonavigation.launch
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+rosrun map_server map_server my_map.yaml
+```
+
+## 4. Run Cartographer with Move-Base and Gazebo Simulation
+
+For a Gazebo simulation combined with move-base:
+
+```bash
+roslaunch bveeta_gazebo maze.launch
+roslaunch bveeta_firmware server_bringup.launch
+roslaunch bveeta_cartonavigation bveeta_cartonavigation.launch
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+rosrun map_server map_server my_map.yaml
+```
+
