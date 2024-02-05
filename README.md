@@ -10,7 +10,7 @@ In 2022, Bveeta Mini mobile robot has been used in Politeknik Sultanah Bahiyah (
 <a href="https://ibb.co/0cz2cZ5"><img src="https://i.ibb.co/R9Jb9P8/ros-ptsb.jpg" alt="ros-ptsb" border="0"></a>
 <a href="https://ibb.co/xCk4cbN"><img src="https://i.ibb.co/C1crXyf/bveetamini001.jpg" alt="bveetamini001" border="0"></a>
 <a href="https://ibb.co/X5QfqCg"><img src="https://i.ibb.co/6tMckWx/bveetamini003.jpg" alt="bveetamini003" border="0"></a>
-<a href="https://ibb.co/hdrYQ1g"><img src="https://i.ibb.co/gWQ4qFr/bveetamini002.jpg" alt="bveetamini002" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>upload pic</a><br />
+<a href="https://ibb.co/hdrYQ1g"><img src="https://i.ibb.co/gWQ4qFr/bveetamini002.jpg" alt="bveetamini002" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'></a><br />
 
 Bveeta Mini is now available in https://robotshop.com . Get it now.
 
