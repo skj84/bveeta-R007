@@ -13,33 +13,47 @@ cd catkin_ws/src
 
 Step 4:
 git clone https://github.com/skj84/bveeta-R007
+
 git clone https://github.com/YDLIDAR/YDLidar-SDK.git
+
 cd YDLidar-SDK/
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
+
 sudo make install
 
 Step 5:
+
 cd ..
 
 Step 6:
+
 catkin_make
 
 Step 7:
+
 ssh into raspi
 
 Step 11: 
+
 sudo usermod -a -G dialout $USER  
 
 Step 12:
+
 roscd ros_arduino_python/nodes
 
 Step 13:
+
 sudo chmod +x arduino_node.py
 
 Step 14:
+
 roscore
 
 (if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
@@ -67,35 +81,49 @@ Step 3:
 cd catkin_ws/src
 
 Step 4:
-Step 4:
+
 git clone https://github.com/skj84/bveeta-R007
+
 git clone https://github.com/YDLIDAR/YDLidar-SDK.git  #install YDlidar SDK 
+
 cd YDLidar-SDK/
+
 mkdir build
+
 cd build
+
 cmake ..
+
 make
+
 sudo make install
 
 Step 5:
+
 cd ..
 
 Step 6:
+
 catkin_make
 
 Step 7:
+
 ssh into raspi
 
 Step 11: 
+
 sudo usermod -a -G dialout $USER  
 
 Step 12:
+
 roscd ros_arduino_python/nodes
 
 Step 13:
+
 sudo chmod +x arduino_node.py
 
 Step 14:
+
 roscore
 
 (if SDD cannot connect, unplug lidar and SDD together and plug in lidar first then followed by SDD) 
